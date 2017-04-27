@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>View Active Project/Contract Schedule - Filter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/Validation.css"/>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+    <link rel="stylesheet" href="css/quanlynhanvien.css"/> 
+</head>
+<body>
+<div class="container" style="background:#d7f4f4";>
+   
+	<div style="width:max;height:30px;background:#00bfbf">
+		<label class="col-sm-4">Active Project Maintenance – Update</label>
+	</div></br>
+	<div class="row form-group">
+		<div class="col-sm-6">
+			<div class="row form-group">
+				<div class="col-sm-4" ><label style="float:left;">Contract Number* : </label></div>
+	            <div class="col-sm-6" style="float:right;">
+					<input type="text" name="matKhau" value="Contract Number" class="form-control"/>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <div class="col-sm-4" ><label style="float:left;">Airline Code* : </label></div>
+	            <div class="col-sm-8" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>Sigapore</option>
+					</select>
+				</div>
+	        </div>
+			 <div class="row form-group">
+	            <div class="col-sm-4" ><label style="float:left;">Important Level: </label></div>
+	            <div class="col-sm-3" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>Normal</option>
+						<option value="Nữ" >Country 2</option>
+					</select>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <div class="col-sm-4" ><label style="float:left;">Region* : </label></div>
+	            <div class="col-sm-6" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>NARO</option>
+					</select>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-4"><label style="float:left;">Date Received* : </label></label>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-4"><label style="float:left;">Discontinue Date* : </label></label>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Number of Fare Sheets* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="30" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Rtgs Agtual* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="1500" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Number of Rules* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="20" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			
+			<div class="row form-group">
+	            <div class="col-sm-4"><label style="float:left;">Queuing Start Date* : </label></div>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+		</div>
+		<div class="col-sm-6">
+			<div class="row form-group">
+				<div class="col-sm-4" ><label style="float:left;">Contract Name* : </label></div>
+	            <div class="col-sm-6" style="float:right;">
+					<input type="text" name="matKhau" value="Contract Name" class="form-control"/>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <div class="col-sm-4" ><label style="float:left;">Market* : </label></div>
+	            <div class="col-sm-8" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>Sigapore</option>
+					</select>
+				</div>
+	        </div>
+			 <div class="row form-group">
+	            <div class="col-sm-5" ><label style="float:left;">Project/contract Priority*: </label></div>
+	            <div class="col-sm-5" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>0-Promo</option>
+					</select>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <div class="col-sm-4" ><label style="float:left;">Fare Type* : </label></div>
+	            <div class="col-sm-5" style="float:right;">
+					<select name="gioiTinh" class="form-control"  >
+						<option value="Nam" select>Type 1</option>
+					</select>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-4"><label style="float:left;">Date Received* : </label></label>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-4"><label style="float:left;">Discontinue Date* : </label></label>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Number of Fare Sheets* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="45000" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Rtgs Agtual* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="1000" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			<div class="row form-group">
+	            <label class="col-sm-6"><label style="float:left;">Number of Rules* : </label></label>
+	            <div class="col-sm-6" >
+					<div class="col-sm-4" style="float:right;padding-right:0px;">
+						<input type="text" name="matKhau" value="2400" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+			
+			<div class="row form-group">
+	            <div class="col-sm-4"><label style="float:left;">Queuing Start Date* : </label></div>
+	            <div class="col-sm-8" >
+					<div class="col-sm-6" style="float:right;padding-right:0px;">
+						<input type="date" name="matKhau" class="form-control"/>
+					</div>
+				</div>
+	        </div>
+					
+		
+		</div>	
+		</div> 
+		<div class="row form-group" style="margin-left:420px;">
+	            <div class="col-sm-5" style="float:center;">
+	  				 <input type="submit" value="    Clear    ">
+					 <input type="submit" value="    Update   ">
+					 <input type="submit" value="    Cancel   ">
+				</div>
+	        </div>
+			
+	       
+		</div>	
+		</div>                
+        
+    </html:form>
+    <br>
+</div>
+</body>
+</html>
